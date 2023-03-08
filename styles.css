@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Gajraj One', cursive;
+    user-select: none;
+}
+p{
+    margin: 0;
+}
+
+#playfield{
+    background-color: rgb(240,230,140);
+}
+.a{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(85,107,47);
+}
+
+.ab{
+    display: grid;
+    justify-items: center;
+    width: 40%;
+}
+.aba{
+    width: 30%;
+    margin-bottom: 50px;
+}
+.aba img{
+    width: 100%;
+}
+.abb{
+    font-size: 1.5em;
+}
+.abc{
+    font-size: 2em;
+}
+.abd{
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.abd > *{
+    margin-bottom: 10px;
+}
+button{
+    width: 60px;
+    height: 40px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+#gameover{
+    display: none;
+    position: fixed;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: red;
+}
+
